@@ -10,7 +10,7 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
 
-  get<T> (url: string, options?: Options): Observable<T> {
+  get<T>(url: string, options?: Options): Observable<T> {
     return this.http.get<T>(url, options) as Observable<T>;
   }
 }

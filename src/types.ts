@@ -17,7 +17,7 @@ export interface Options {
     } | boolean;
 }
 
-export interface Show     {
+export interface Show {
     id: number, //1,
     url: string, //"https://www.tvmaze.com/shows/1/under-the-dome",
     name: string, //"Under the Dome",
