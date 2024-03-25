@@ -1,5 +1,8 @@
-<p>Home Works!</p>
-<div>
+<div class="container-fluid hero-bg" style="background-color: aqua;">
+    <app-header></app-header>
+    <app-search></app-search>
+</div>
+<div class="d-flex flex-wrap">
     <app-show-card *ngFor="let showInfo of showsList" [show]="showInfo"></app-show-card>
 </div>
 

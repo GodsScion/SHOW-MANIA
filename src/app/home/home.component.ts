@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { ShowsService } from '../requests/shows.service';
 import { Show } from '../../types';
-import { ShowCardComponent } from '../show-card/show-card.component';
+import { ShowCardComponent } from '../components/show-card/show-card.component';
 import { CommonModule } from '@angular/common';
+import { HeaderComponent } from '../layout/header/header.component';
+import { SearchComponent } from '../components/search/search.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [ShowCardComponent, CommonModule],
+  imports: [ShowCardComponent, CommonModule, HeaderComponent, SearchComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -19,10 +21,10 @@ export class HomeComponent {
 
   ngOnInit() {
     let perPage = 20
-    let max = 300
+    let max = 250
 
     this.shows.getShows("https://api.tvmaze.com/shows",{
-      page: getRandomInt(0,max)
+      page: 0//getRandomInt(0,max)
     }).subscribe((data)=>{
       if (data.length < perPage) {
         this.shows.getShows("https://api.tvmaze.com/shows").subscribe((newData) => {data = newData})
