@@ -20,14 +20,14 @@ export class HomeComponent {
   public showsList: Show[] = []
 
   ngOnInit() {
-    let perPage = 20
+    let perPage = 40
     let max = 250
 
-    this.shows.getShows("https://api.tvmaze.com/shows",{
+    this.shows.getTvMazeShows("https://api.tvmaze.com/shows",{
       page: 0//getRandomInt(0,max)
     }).subscribe((data)=>{
       if (data.length < perPage) {
-        this.shows.getShows("https://api.tvmaze.com/shows").subscribe((newData) => {data = newData})
+        this.shows.getTvMazeShows("https://api.tvmaze.com/shows").subscribe((newData) => {data = newData})
       }
       let randomIndex = getRandomInt(0,data.length-perPage+1)
       this.showsList = data.slice(randomIndex,randomIndex+perPage)

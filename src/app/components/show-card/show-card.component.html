@@ -1,7 +1,7 @@
 <div class="card">
     <img *ngIf="show.image; else noImage" [src]="show.image.medium" [alt]="show.name">
     <ng-template #noImage>
-        <img src="/assets/images/no_cover.svg" alt="No Image Available">
+        <img class="card-img" src="/assets/images/no_cover.svg" alt="No Image Available">
     </ng-template>
 </div>
 <p> {{show.id}} show-card works!</p>

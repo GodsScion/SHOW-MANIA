@@ -10,8 +10,8 @@ export class ShowsService {
 
   constructor(private api: ApiService) { }
 
-  getShows = (url: string,  params?: PageParams): Observable<Show[]> => {
-    return this.api.get(url, {
+  getTvMazeShows = (url: string,  params?: PageParams): Observable<Show[]> => {
+    return this.api.getTvMaze(url, {
       params,
       responseType: 'json'
     })
