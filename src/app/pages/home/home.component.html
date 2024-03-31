@@ -1,9 +1,9 @@
-<div class="container-fluid hero-bg p-0">
+<div class=" p-0" style="height: 100dvh;">
     <app-header></app-header>
 
     <app-search></app-search>
 </div>
-<div class="d-flex flex-wrap">
+<div class="d-flex flex-wrap p-5 justify-content-center gap-4">
     <app-show-card *ngFor="let showInfo of showsList" [show]="showInfo"></app-show-card>
 </div>
 

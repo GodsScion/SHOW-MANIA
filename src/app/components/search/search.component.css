@@ -1,0 +1,10 @@
+.search { 
+    position: absolute;
+    top: 155px;
+    left: 20px;
+    right: 20px;
+    input {
+      width: 265px;
+      transition: width 0.2s;
+    }
+  }

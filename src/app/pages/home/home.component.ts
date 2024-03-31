@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { ShowsService } from '../requests/shows.service';
-import { Show } from '../../types';
-import { ShowCardComponent } from '../components/show-card/show-card.component';
+import { ShowsService } from '../../requests/shows.service';
+import { Show } from '../../../types';
+import { ShowCardComponent } from '../../components/show-card/show-card.component';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from '../layout/header/header.component';
-import { SearchComponent } from '../components/search/search.component';
+import { HeaderComponent } from '../../layout/header/header.component';
+import { SearchComponent } from '../../components/search/search.component';
 
 @Component({
   selector: 'app-home',
