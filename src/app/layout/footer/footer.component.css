@@ -1,0 +1,4 @@
+.blur {
+    backdrop-filter: blur(20px);
+    background-color: rgba(20, 20, 20, 0.5); /* Adjust the alpha value (0.5) for transparency */
+}

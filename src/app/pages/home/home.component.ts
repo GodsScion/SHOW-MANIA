@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ShowsService } from '../../requests/shows.service';
+import { ShowsService } from '../../services/shows.service';
 import { Show } from '../../../types';
 import { ShowCardComponent } from '../../components/show-card/show-card.component';
 import { CommonModule } from '@angular/common';
@@ -16,6 +16,8 @@ import { SearchComponent } from '../../components/search/search.component';
 export class HomeComponent {
 
   constructor(private shows: ShowsService) {}
+
+  
 
   public showsList: Show[] = [
     {
