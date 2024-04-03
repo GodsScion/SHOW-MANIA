@@ -1,4 +1,4 @@
-# SHOW MANIA (In Development 🛠️)
+# [SHOW MANIA](https://godsscion.github.io/SHOW-MANIA/) (In Development 🛠️)
 Can't decide on which TV Show to binge next? Don't worry set your preferences and get personalized suggestions. Check it out by clicking it [here](https://godsscion.github.io/SHOW-MANIA/) or copy pasting this link: https://godsscion.github.io/SHOW-MANIA/
 
 ## Development server
