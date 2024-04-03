@@ -1,13 +1,12 @@
 # [SHOW MANIA](https://godsscion.github.io/SHOW-MANIA/) (In Development 🛠️)
 Can't decide on which TV Show to binge next? Don't worry set your preferences and get personalized suggestions. Check it out by clicking it [here](https://godsscion.github.io/SHOW-MANIA/) or copy pasting this link: https://godsscion.github.io/SHOW-MANIA/
 
-
-**Note: The app is in early stages of development, expect nothing to work! Current progress: 20%**
-
+### **Note: The app is in early stages of development, expect nothing to work 😅! Current progress: 25% 😑**
 
 
 
-# Built With
+
+## Built With
 [![Angular](https://skillicons.dev/icons?i=angular&perline=1&theme=light)](https://angular.io/)  [![TypeScript](https://skillicons.dev/icons?i=ts&perline=1)](https://www.typescriptlang.org/)  [![JavaScript](https://skillicons.dev/icons?i=js&perline=1)](https://developer.mozilla.org/en-US/docs/Web/javascript)  [![Bootstrap](https://skillicons.dev/icons?i=bootstrap&perline=1)](https://getbootstrap.com/)  [![HTML](https://skillicons.dev/icons?i=html&perline=1)](https://developer.mozilla.org/en-US/docs/Web/HTML)  [![CSS](https://skillicons.dev/icons?i=css&perline=1)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ***Click on the icons for more info***
