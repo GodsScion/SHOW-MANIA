@@ -1,7 +1,10 @@
-<div class=" p-0" style="height: 100dvh;">
+<div class="container-fluid p-0" style="height: 80dvh;">
     <app-header></app-header>
 
-    <app-search></app-search>
+    <div class="align" style="height: calc(100% - 5rem);">
+        <h1 class="hero-title">WORK IN PROGRESS 🛠️</h1>
+        <app-search></app-search>
+    </div>
 </div>
 <div class="d-flex flex-wrap p-5 justify-content-center gap-4">
     <app-show-card *ngFor="let showInfo of showsList" [show]="showInfo"></app-show-card>
